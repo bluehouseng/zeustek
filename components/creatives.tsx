@@ -12,6 +12,7 @@ import CreativeBg04 from '@/public/images/creative-bg-04.jpg'
 
 export default function Creatives() {
   return (
+    
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
@@ -168,7 +169,7 @@ export default function Creatives() {
                 <Image className="inline-block mb-12" src={CreativesImage} width={330} height={181} alt="Creatives" />
                 <h3 className="h3 font-cabinet-grotesk text-4xl mb-4">More than a community</h3>
                 <p className="text-xl text-gray-500 mb-6">
-                  It is a long established fact that a reader will be distracted by the readable content of a page when looking.
+                Breaking barriers, empowering women,Market to Tech, a journey of transformation.
                 </p>
                 <div>
                   <Link className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-blue-600 shadow-sm" href="/signup">

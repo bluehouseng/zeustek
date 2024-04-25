@@ -2,8 +2,8 @@ import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 flex items-center justify-center">
-    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <header className="absolute w-full z-30 flex ">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 items-center justify-center">
       <div className="flex items-center justify-between h-16 md:h-20">
 
         {/* Site branding */}
@@ -32,14 +32,15 @@ export default function Header() {
             </li>
             <li>
               <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out hover:text-black" href="#">
-                <button className="px-3 py-1 rounded-lg hover:bg-white hover:text-black">MUNA TARI </button>
+                <button className="px-3 py-1 rounded-lg hover:bg-white hover:text-black">MUNATARE </button>
               </Link>
             </li>
           </ul>
         </nav>
-      <MobileMenu />
+      
         </div>
       </div>
+      <MobileMenu />
     </header>
   )
 }
