@@ -335,12 +335,7 @@ Founded on the principle of inclusivity and diversity, Zeustek has been a beacon
                   </div>
                 </a>
               </div>
-              {/* CTA */}
-              {/* <div className="absolute bottom-0 left-0 right-0 h-[352px] bg-gradient-to-t from-white to-transparent">
-                <div className="flex h-full items-end justify-center">
-                  <Link className="btn text-white bg-blue-200 hover:bg-blue-600 shadow-sm mb-6" href="/signup">Join The Community</Link>
-                </div>
-              </div> */}
+            
             </div>
           </div>
         </div>
