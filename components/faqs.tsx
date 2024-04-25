@@ -13,36 +13,38 @@ export default function Faqs() {
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-cabinet-grotesk font-bold">What is the difference between the Free and Paid versions?</h4>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+                <h4 className="text-xl font-cabinet-grotesk font-bold">What distinguishes Zeustek ICT Solutions in Africa's digital landscape?</h4>
+                <p className="text-gray-500">Zeustek stands out for its pioneering integration of cutting-edge Generative AI technologies and strategic partnerships with Microsoft, GitHub, and Data.org.
+</p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-cabinet-grotesk font-bold">Do you have student or non-profit discounts?</h4>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+                <h4 className="text-xl font-cabinet-grotesk font-bold">How does Zeustek contribute to empowering women entrepreneurs?</h4>
+                <p className="text-gray-500">Zeustek focuses on democratizing access to advanced digital tools, particularly for women-led businesses from low-income backgrounds, through initiatives like their mobile app and partnerships with organizations like Women in Digital Business.</p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-cabinet-grotesk font-bold">How is the price determined?</h4>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+                <h4 className="text-xl font-cabinet-grotesk font-bold">What recent achievement highlights Zeustek's commitment to advancing AI technologies?</h4>
+                <p className="text-gray-500">Zeustek's victory as the Generative AI Challenge winner for the Data.org Challenge 2023 in Africa showcases their leadership in AI development, including spearheading the creation of Microsoft's Hausa speech model.</p>
               </div>
             </div>
             {/* Column */}
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-cabinet-grotesk font-bold">Do I need coding knowledge to use this product?</h4>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+                <h4 className="text-xl font-cabinet-grotesk font-bold">How does Zeustek address the unique challenges faced by women entrepreneurs?</h4>
+                <p className="text-gray-500">Zeustek is dedicated to breaking down barriers and building bridges to success for women in business by providing effective and accessible solutions, as demonstrated through their mobile app tailored to local cultures and languages.
+</p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-cabinet-grotesk font-bold">Is there a way to become an Affiliate reseller?</h4>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+                <h4 className="text-xl font-cabinet-grotesk font-bold">What partnerships does Zeustek have to support its mission of empowering women entrepreneurs?</h4>
+                <p className="text-gray-500">Zeustek collaborates with organizations like AllIn Africa, ILO.org, GIEVA, and COLAB, underscoring its commitment to shaping the future of technology across the continent and fostering digital livelihoods for women.</p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-cabinet-grotesk font-bold">What forms of payment do you accept?</h4>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+                <h4 className="text-xl font-cabinet-grotesk font-bold">How does Zeustek's approach to technology reflect its broader vision for Africa's digital future?</h4>
+                <p className="text-gray-500">Zeustek's holistic approach to technology, encompassing innovation, inclusivity, and social impact, aligns with its vision of transforming possibilities into realities and fostering a thriving digital marketplace for women entrepreneurs.</p>
               </div>
             </div>
           </div>

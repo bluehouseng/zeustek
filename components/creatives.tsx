@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import CreativesImage from '@/public/images/creatives.jpg'
-import Creative01 from '@/public/images/creative-01.jpg'
-import Creative02 from '@/public/images/creative-02.jpg'
-import Creative03 from '@/public/images/creative-03.jpg'
-import Creative04 from '@/public/images/creative-04.jpg'
-import CreativeBg01 from '@/public/images/creative-bg-01.jpg'
-import CreativeBg02 from '@/public/images/creative-bg-02.jpg'
-import CreativeBg03 from '@/public/images/creative-bg-03.jpg'
+import black001 from '@/public/images/black001.jpg'
+import black005 from '@/public/images/black005.jpg'
+import black003 from '@/public/images/black003.jpg'
+import black004 from '@/public/images/black004.jpg'
+import new1 from '@/public/images/new1.jpg'
+import new2 from '@/public/images/new2.jpg'
+import new3 from '@/public/images/new3.jpg'
 import CreativeBg04 from '@/public/images/creative-bg-04.jpg'
 
 export default function Creatives() {
@@ -17,7 +17,7 @@ export default function Creatives() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-cabinet-grotesk">Join over 2M creatives from around the world</h2>
+            <h2 className="h2 font-cabinet-grotesk">Join Us As We Empower African Women Around The World</h2>
           </div>
           {/* Section content */}
           <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center space-y-8 md:space-y-0">
@@ -28,10 +28,10 @@ export default function Creatives() {
                 <div className="w-1/2 space-y-6">
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos-anchor="[data-aos-id-cards]" data-aos="fade-down">
-                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg01} width={258} height={64} alt="Creative 01 bg" />
+                    <Image className="w-full h-16 object-cover opacity-60" src={new1} width={258} height={64} alt="Creative 01 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
-                        <Image className="inline-flex rounded-full" src={Creative01} width={64} height={64} alt="Creative 01" />
+                        <Image className="inline-flex rounded-full" src={black001} width={64} height={64} alt="Creative 01" />
                         <svg className="absolute top-0 right-0" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                           <path
                             className="fill-blue-500"
@@ -45,12 +45,12 @@ export default function Creatives() {
                           className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
                           href="#0"
                         >
-                          Daniel Khan
+                          Nansik Musa
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@art-daniel-k</div>
+                        <div className="text-sm font-medium text-gray-500">@nansikmusa</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gray-900 shadow-sm" href="#0">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -64,22 +64,22 @@ export default function Creatives() {
                   </div>
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-right" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="200">
-                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg02} width={258} height={64} alt="Creative 02 bg" />
+                    <Image className="w-full h-16 object-cover opacity-60" src={new2} width={258} height={64} alt="Creative 02 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
-                        <Image className="inline-flex rounded-full" src={Creative02} width={64} height={64} alt="Creative 01" />
+                        <Image className="inline-flex rounded-full" src={black005} width={64} height={64} alt="Creative 01" />
                       </div>
                       <div className="mb-5">
                         <a
                           className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
                           href="#0"
                         >
-                          Daniel Khan
+                          Christiana Dasok
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@art-daniel-k</div>
+                        <div className="text-sm font-medium text-gray-500">@christy_Dasok</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gray-900 shadow-sm" href="#0">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -96,22 +96,22 @@ export default function Creatives() {
                 <div className="w-1/2 mt-6 space-y-6">
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-left" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="100">
-                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg03} width={258} height={64} alt="Creative 03 bg" />
+                    <Image className="w-full h-16 object-cover opacity-60" src={new3} width={258} height={64} alt="Creative 03 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
-                        <Image className="inline-flex rounded-full" src={Creative03} width={64} height={64} alt="Creative 01" />
+                        <Image className="inline-flex rounded-full" src={black003} width={64} height={64} alt="Creative 01" />
                       </div>
                       <div className="mb-5">
                         <a
                           className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
                           href="#0"
                         >
-                          Daniel Khan
+                          Hannatu Maiyanga
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@art-daniel-k</div>
+                        <div className="text-sm font-medium text-gray-500">@hannatumaiyanga</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gray-900 shadow-sm" href="#0">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -128,7 +128,7 @@ export default function Creatives() {
                     <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg04} width={258} height={64} alt="Creative 04 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
-                        <Image className="inline-flex rounded-full" src={Creative04} width={64} height={64} alt="Creative 01" />
+                        <Image className="inline-flex rounded-full" src={black004} width={64} height={64} alt="Creative 01" />
                         <svg className="absolute top-0 right-0" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                           <path
                             className="fill-blue-500"
@@ -142,12 +142,12 @@ export default function Creatives() {
                           className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
                           href="#0"
                         >
-                          Daniel Khan
+                          Peret Adams
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@art-daniel-k</div>
+                        <div className="text-sm font-medium text-gray-500">@peret_adams</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gray-900 shadow-sm" href="#0">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -171,7 +171,7 @@ export default function Creatives() {
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking.
                 </p>
                 <div>
-                  <Link className="btn text-white bg-blue-500 hover:bg-blue-600 shadow-sm" href="/signup">
+                  <Link className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-blue-600 shadow-sm" href="/signup">
                     Join The Community
                   </Link>
                 </div>
