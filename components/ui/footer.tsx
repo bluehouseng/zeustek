@@ -35,7 +35,7 @@ export default function Footer() {
                 alt="whater"
               />
             </div>
-      <a className="inline-flex group" href="/" aria-label="Cruip"></a>
+      
     </div>
  
 </div>
