@@ -9,7 +9,6 @@ import new1 from '@/public/images/new1.jpg'
 import new2 from '@/public/images/new2.jpg'
 import new3 from '@/public/images/new3.jpg'
 import CreativeBg04 from '@/public/images/creative-bg-04.jpg'
-import Inspiration07 from '@/public/images/inspiration-07.jpg'
 
 export default function Creatives() {
   return (
@@ -27,11 +26,20 @@ export default function Creatives() {
             <div className="md:w-1/2" data-aos-id-cards>
               <div className="flex space-x-6">
                 {/* Column 1 */}
-                <div className=" space-y-6">
+                <div className="w-1/2 space-y-6">
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos-anchor="[data-aos-id-cards]" data-aos="fade-down">
-                    <Image className="w-64 h-64 object-cover opacity-60 roun rounded-md" src={Inspiration07} width={258} height={64} alt="Creative 01 bg" />
-                    
+                    <Image className="w-full h-16 object-cover opacity-60" src={new1} width={258} height={64} alt="Creative 01 bg" />
+                    <div className="bg-white px-4 pb-6">
+                      <div className="relative inline-flex -mt-8 mb-3">
+                        <Image className="inline-flex rounded-full" src={black001} width={64} height={64} alt="Creative 01" />
+                        <svg className="absolute top-0 right-0" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            className="fill-blue-500"
+                            d="M20 10.469c0 .699-.168 1.347-.504 1.941a3.594 3.594 0 0 1-1.351 1.383c.015.105.023.27.023.492 0 1.059-.355 1.957-1.059 2.7-.707.745-1.558 1.117-2.554 1.117-.446 0-.871-.082-1.274-.247a3.874 3.874 0 0 1-1.351 1.551A3.359 3.359 0 0 1 10 20a3.39 3.39 0 0 1-1.941-.582 3.787 3.787 0 0 1-1.34-1.563 3.33 3.33 0 0 1-1.274.247c-.996 0-1.851-.372-2.566-1.118-.715-.742-1.07-1.644-1.07-2.699 0-.117.015-.281.043-.492A3.621 3.621 0 0 1 .5 12.41 3.916 3.916 0 0 1 0 10.47c0-.742.188-1.426.559-2.043a3.443 3.443 0 0 1 1.496-1.371 3.863 3.863 0 0 1-.246-1.34c0-1.055.355-1.957 1.07-2.7.715-.742 1.57-1.117 2.566-1.117.446 0 .871.082 1.274.247A3.874 3.874 0 0 1 8.07.594 3.388 3.388 0 0 1 10 0c.7 0 1.344.2 1.93.59.586.394 1.039.91 1.351 1.55a3.33 3.33 0 0 1 1.274-.245c.996 0 1.847.37 2.554 1.117.707.746 1.059 1.644 1.059 2.699 0 .492-.074.937-.223 1.34a3.443 3.443 0 0 1 1.496 1.37c.372.622.559 1.306.559 2.048Z"
+                          />
+                          <path className="fill-white" d="M14.8 8.4 13.4 7l-4 4-2-2L6 10.4l3.4 3.4z" />
+                        </svg>
                       </div>
                       <div className="mb-5">
                         <a
@@ -57,7 +65,7 @@ export default function Creatives() {
                   </div>
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-right" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="200">
-                    <Image className="w-full h-16 object-cover opacity-60 rounded-md" src={new2} width={258} height={64} alt="Creative 02 bg" />
+                    <Image className="w-full h-16 object-cover opacity-60" src={new2} width={258} height={64} alt="Creative 02 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-full" src={black005} width={64} height={64} alt="Creative 01" />
@@ -89,7 +97,7 @@ export default function Creatives() {
                 <div className="w-1/2 mt-6 space-y-6">
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-left" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="100">
-                    <Image className="w-full h-16 object-cover opacity-60 rounded-md" src={new3} width={258} height={64} alt="Creative 03 bg" />
+                    <Image className="w-full h-16 object-cover opacity-60" src={new3} width={258} height={64} alt="Creative 03 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-full" src={black003} width={64} height={64} alt="Creative 01" />
@@ -118,7 +126,7 @@ export default function Creatives() {
                   </div>
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-up" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="300">
-                    <Image className="w-full h-16 object-cover opacity-60 rounded-md" src={CreativeBg04} width={258} height={64} alt="Creative 04 bg" />
+                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg04} width={258} height={64} alt="Creative 04 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-full" src={black004} width={64} height={64} alt="Creative 01" />
@@ -158,7 +166,7 @@ export default function Creatives() {
             {/* Content */}
             <div className="md:w-1/2 md:pl-10 lg:pl-20">
               <div className="text-center md:text-left">
-                <Image className="inline-block mb-12 rounded-md" src={CreativesImage} width={330} height={181} alt="Creatives" />
+                <Image className="inline-block mb-12" src={CreativesImage} width={330} height={181} alt="Creatives" />
                 <h3 className="h3 font-cabinet-grotesk text-4xl mb-4">More than a community</h3>
                 <p className="text-xl text-gray-500 mb-6">
                 Breaking barriers, empowering women,Market to Tech, a journey of transformation.
@@ -171,8 +179,8 @@ export default function Creatives() {
               </div>
             </div>
           </div>
-       
-  
+        </div>
+      </div>
     </section>
   )
 }
