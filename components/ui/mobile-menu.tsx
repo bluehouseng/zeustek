@@ -57,17 +57,20 @@ export default function MobileMenu() {
       >
         <ul className="border border-transparent rounded-lg px-4 py-1.5 " >
           <li>
-            <Link className="flex font-medium text-sm text-white  py-1.5" href="#">HOME </Link>
+            <Link className="flex font-medium text-sm text-white  py-1.5" href="#section4">HOME </Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#">ABOUT US</Link>
+            <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#section2">ABOUT US</Link>
           </li>
          
           <li>
-            <Link className="flex font-medium text-sm text-white py-1.5" href="#">CONTACT US</Link>
+            <Link className="flex font-medium text-sm text-white py-1.5" href="#section3">CONTACT US</Link>
           </li>
           <li>
+
+            <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#section1">TARE</Link>
             <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#">TARE</Link>
+
           </li>
         </ul>
       </nav>

@@ -4,7 +4,8 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <section id='section3'>
-     <footer className='bg-white'>
+
+    <footer className='bg-white'>
       
       {/* Bottom area */}
       <div className="text-left md:flex md:items-left md:justify-between mb-8 md:mb-6">
@@ -129,8 +130,11 @@ export default function Footer() {
 </div>
 
 </div>
-    </div> 
-</footer> 
+
+        </div> 
+    </footer>
+    
+
     </section>
   )
 }
