@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 
 import Image from 'next/image'
-import TestimonialsImage01 from '@/public/images/testimonial-01.jpg'
+import TestimonialsImage01 from '@/public/images/testimonial-01.png'
 import TestimonialsImage02 from '@/public/images/testimonial-02.jpg'
 import TestimonialsImage03 from '@/public/images/testimonial-03.jpg'
 
@@ -42,13 +42,13 @@ export default function Testimonials() {
                   {/* Testimonial */}
                   <div className="swiper-slide space-y-8 lg:flex items-center lg:space-y-0 lg:space-x-8 text-center lg:text-left">
                     <div className="shrink-0 relative inline-flex">
-                      <Image className="rounded-full" src={TestimonialsImage01} width={280} height={280} alt="Testimonial 01" />
+                      <Image className="rounded-full" src={TestimonialsImage01} width={260} height={250} alt="Testimonial 01" />
                       <div className="absolute right-0 bottom-0 mr-4 mb-6">
                         <a className="flex items-center font-cabinet-grotesk font-bold decoration-blue-500 decoration-2 underline-offset-2 hover:underline px-3 py-1 bg-white rounded-full shadow-sm" href="#0">
                           <svg className="shrink-0 mr-1.5" width="16" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="m5.063 0 3.495 4.475L12.601 0h2.454L9.696 5.931 16 14h-4.938L7.197 9.107 2.771 14H.316L6.05 7.658 0 0h5.063Zm-.74 1.347H2.866l8.875 11.232h1.36L4.323 1.347Z" fill="#1D9BF0" fillRule="nonzero" />
                           </svg>
-                          <span>@cafromthesky</span>
+                          <span>@enelola</span>
                         </a>
                       </div>
                     </div>
@@ -67,13 +67,13 @@ export default function Testimonials() {
                   {/* Testimonial */}
                   <div className="swiper-slide space-y-8 lg:flex items-center lg:space-y-0 lg:space-x-8 text-center lg:text-left">
                     <div className="shrink-0 relative inline-flex">
-                      <Image className="rounded-full" src={TestimonialsImage02} width={280} height={280} alt="Testimonial 02" />
+                      <Image className="rounded-full" src={TestimonialsImage02} width={260} height={250} alt="Testimonial 02" />
                       <div className="absolute right-0 bottom-0 mr-4 mb-6">
                         <a className="flex items-center font-cabinet-grotesk font-bold decoration-blue-500 decoration-2 underline-offset-2 hover:underline px-3 py-1 bg-white rounded-full shadow-sm" href="#0">
                           <svg className="shrink-0 mr-1.5" width="16" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="m5.063 0 3.495 4.475L12.601 0h2.454L9.696 5.931 16 14h-4.938L7.197 9.107 2.771 14H.316L6.05 7.658 0 0h5.063Zm-.74 1.347H2.866l8.875 11.232h1.36L4.323 1.347Z" fill="#1D9BF0" fillRule="nonzero" />
                           </svg>
-                          <span>@dontlookbehind</span>
+                          <span>@peacequen</span>
                         </a>
                       </div>
                     </div>
@@ -92,13 +92,13 @@ export default function Testimonials() {
                   {/* Testimonial */}
                   <div className="swiper-slide space-y-8 lg:flex items-center lg:space-y-0 lg:space-x-8 text-center lg:text-left">
                     <div className="shrink-0 relative inline-flex">
-                      <Image className="rounded-full" src={TestimonialsImage03} width={280} height={280} alt="Testimonial 03" />
+                      <Image className="rounded-full" src={TestimonialsImage03} width={260} height={250} alt="Testimonial 03" />
                       <div className="absolute right-0 bottom-0 mr-4 mb-6">
                         <a className="flex items-center font-cabinet-grotesk font-bold decoration-blue-500 decoration-2 underline-offset-2 hover:underline px-3 py-1 bg-white rounded-full shadow-sm" href="#0">
                           <svg className="shrink-0 mr-1.5" width="16" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="m5.063 0 3.495 4.475L12.601 0h2.454L9.696 5.931 16 14h-4.938L7.197 9.107 2.771 14H.316L6.05 7.658 0 0h5.063Zm-.74 1.347H2.866l8.875 11.232h1.36L4.323 1.347Z" fill="#1D9BF0" fillRule="nonzero" />
                           </svg>
-                          <span>@lukasjey</span>
+                          <span>@jenifer</span>
                         </a>
                       </div>
                     </div>
