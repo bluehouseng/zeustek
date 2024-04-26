@@ -69,8 +69,7 @@ export default function MobileMenu() {
           <li>
 
             <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#section1">TARE</Link>
-            <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#">TARE</Link>
-
+           
           </li>
         </ul>
       </nav>
