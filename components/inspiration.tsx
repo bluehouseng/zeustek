@@ -20,7 +20,7 @@ export default function Inspiration() {
   const [category, setCategory] = useState<string>('0')
 
   return (
-    <section>
+    <section id='section1'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:pt-32 md:pb-20">
           {/* Section header */}

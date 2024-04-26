@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
+    <section id='section3'>
     <footer className='bg-white'>
       
           {/* Bottom area */}
@@ -130,5 +131,6 @@ export default function Footer() {
 </div>
         </div> 
     </footer>
+    </section>
   )
 }
