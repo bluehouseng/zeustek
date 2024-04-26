@@ -28,12 +28,12 @@ export default function Footer() {
       <div className="mb-8 sm:mb-0">
       <div className="mb-8 sm:mb-0">
       <div className="mb-8 sm:mb-0">
-      <div className="rounded-2xl flex items-center justify-center group">
-              <Image
-                className="w-10 h-13"
-                src={What}
-                alt="whater"
-              />
+     <div className="rounded-2xl flex items-center justify-center group">
+      <Image
+        className="w-10 h-13"
+        src={What}
+        alt="water"
+      />
             </div>
       
     </div>
