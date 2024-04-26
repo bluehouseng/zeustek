@@ -41,67 +41,67 @@ function Clients() {
   }, []);
 
   return (
-    <section className="bg-green-300 mt-0">
+    <section className="bg-white mt-0">
       <div className="py-12 md:py-20">
         {/* Section header */}
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h2 className="h2 font-cabinet-grotesk text-green-800">
+          <h2 className="h2 font-cabinet-grotesk text-black">
             Our Sponsors/Partners:
           </h2>
         </div>
 
         
-        <div className="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-green-800 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-green-800">
+        <div className="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-cyan-500 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-cyan-500">
           <div className="swiper-wrapper !ease-linear select-none">
            
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32 bg-cyan-400  rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 rounded-2xl transform duration-500 ease-in-out"
+                className=""
                 src={uj}
                 alt="Client 02"
               />
             </div>
            
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32 bg-cyan-400  rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 !h-32 !w-32 rounded-2xl transform duration-500 ease-in-out"
+                className=""
                 src={gps}
                 alt="Client 07"
               />
             </div>
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32 bg-cyan-400 rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
+                className=""
                 src={giz}
                 alt="Client 08"
               />
             </div>
 
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32 bg-cyan-400  rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 transform rounded-2xl duration-500 ease-in-out"
+                className=""
                 src={jtg}
                 alt="Client 09"
               />
             </div>
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32  bg-cyan-400  rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 rounded-2xl transform duration-500 ease-in-out"
+                className=""
                 src={itf}
                 alt="Client 10"
               />
             </div>
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32 bg-cyan-400 rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
+                className=""
                 src={gdg}
                 alt="Client 11"
               />
             </div>
            
-            <div className="swiper-slide !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32  bg-cyan-400  rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
+                className=""
                 src={pictda}
                 alt="Client 11"
               />
