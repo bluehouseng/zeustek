@@ -16,23 +16,23 @@ export default function Header() {
           {/* Desktop menu links */}
           <ul className="flex grow justify-center flex-wrap items-center">
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out hover:text-black" href="#">
-                <button className="px-3 py-1 rounded-lg hover:bg-white hover:text-black">HOME</button>
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#">
+                <button className="px-3 py-1 rounded-lg  ">HOME</button>
               </Link>
             </li>
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out hover:text-black" href="#">
-                <button className="px-3 py-1 rounded-lg hover:bg-white hover:text-black">ABOUT US</button>
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#">
+                <button className="px-3 py-1 rounded-lg  ">ABOUT US</button>
               </Link>
             </li>
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out hover:text-black" href="#">
-                <button className="px-3 py-1 rounded-lg hover:bg-white hover:text-black">Contact US</button>
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="#">
+                <button className="px-3 py-1 rounded-lg  ">Contact US</button>
               </Link>
             </li>
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out hover:text-black" href="#">
-                <button className="px-3 py-1 rounded-lg hover:bg-white hover:text-black">MUNATARE </button>
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#">
+                <button className="px-3 py-1 rounded-lg  ">TARE </button>
               </Link>
             </li>
           </ul>
