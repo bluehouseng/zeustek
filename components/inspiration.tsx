@@ -75,8 +75,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-9 h-9 rounded-full mr-4" src={Author01} width="36" height="36" alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -87,7 +87,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -105,8 +105,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -117,7 +117,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -135,8 +135,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -147,7 +147,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -165,8 +165,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -177,7 +177,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -195,8 +195,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -207,7 +207,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -225,8 +225,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -237,7 +237,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -255,8 +255,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -267,7 +267,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -285,8 +285,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -297,7 +297,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -315,8 +315,8 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -327,7 +327,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
