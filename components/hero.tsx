@@ -41,7 +41,7 @@ function Explainer() {
             <div className="flex items-end justify-center h-full">
               
                 <h2 className="text-4xl text-center text-white font-extrabold">
-                  THEME: empowering market women |<br />
+                   empowering market women |<br />
                   
                     <p className="text-2xl">
                       Navigating the Digital Frontier of Economic Transformation
