@@ -29,7 +29,7 @@ export default function Creatives() {
                 <div className="w-1/2 space-y-6">
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos-anchor="[data-aos-id-cards]" data-aos="fade-down">
-                    <Image className="w-full h-64 object-cover " src={inspiration01} width={258} height={64} alt="Creative 01 bg" />
+                    <Image className="w-full h-64 object-cover rounded-md " src={inspiration01} width={258} height={64} alt="Creative 01 bg" />
                     <div className="bg-white px-4 pb-6">
                       {/* <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-md " src={inspiration01} width={258} height={150} alt="Creative 01" />
@@ -65,7 +65,7 @@ export default function Creatives() {
                   </div>
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-right" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="200">
-                    <Image className="w-full h-64 object-cover " src={inspiration02} width={258} height={64} alt="Creative 02 bg" />
+                    <Image className="w-full h-64 object-cover rounded-md " src={inspiration02} width={258} height={64} alt="Creative 02 bg" />
                     <div className="bg-white px-4 pb-6">
                       {/* <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-md" src={inspiration02} width={258} height={150} alt="Creative 01" />
@@ -97,7 +97,7 @@ export default function Creatives() {
                 <div className="w-1/2 mt-6 space-y-6">
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-left" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="100">
-                    <Image className="w-full h-64 object-cover" src={inspiration03} width={258} height={64} alt="Creative 03 bg" />
+                    <Image className="w-full h-64 object-cover rounded-md" src={inspiration03} width={258} height={64} alt="Creative 03 bg" />
                     <div className="bg-white px-4 pb-6">
                       {/* <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-md" src={inspiration03} width={258} height={150} alt="Creative 01" />
@@ -126,7 +126,7 @@ export default function Creatives() {
                   </div>
                   {/* Item */}
                   <div className="text-center shadow-sm" data-aos="fade-up" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="300">
-                    <Image className="w-full h-64 object-cover" src={inspiration04} width={258} height={64} alt="Creative 04 bg" />
+                    <Image className="w-full h-64 object-cover rounded-md" src={inspiration04} width={258} height={64} alt="Creative 04 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
                         {/* <Image className="inline-flex rounded-md " src={inspiration04} width={258} height={150} alt="Creative 01" /> */}
