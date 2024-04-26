@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
+
 export default function Header() {
   return (
     <header className="absolute w-full z-30 flex ">
@@ -16,22 +17,22 @@ export default function Header() {
           {/* Desktop menu links */}
           <ul className="flex grow justify-center flex-wrap items-center">
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#">
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#section4">
                 <button className="px-3 py-1 rounded-lg  ">HOME</button>
               </Link>
             </li>
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#">
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#section2">
                 <button className="px-3 py-1 rounded-lg  ">ABOUT US</button>
               </Link>
             </li>
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="#">
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="#section3">
                 <button className="px-3 py-1 rounded-lg  ">Contact US</button>
               </Link>
             </li>
             <li>
-              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#">
+              <Link className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out " href="#section1">
                 <button className="px-3 py-1 rounded-lg  ">TARE </button>
               </Link>
             </li>

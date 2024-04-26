@@ -67,7 +67,10 @@ export default function MobileMenu() {
             <Link className="flex font-medium text-sm text-white py-1.5" href="#section3">CONTACT US</Link>
           </li>
           <li>
+
             <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#section1">TARE</Link>
+            <Link className="flex font-medium text-sm text-white  py-1.5 mb-2 " href="#">TARE</Link>
+
           </li>
         </ul>
       </nav>
