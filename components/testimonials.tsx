@@ -99,7 +99,7 @@ export default function Testimonials() {
                             -&gt;
                           </span>
                         </a>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                   {/* Testimonial */}
@@ -150,7 +150,7 @@ export default function Testimonials() {
                         <a className="btn-sm text-white bg-blue-500 hover:bg-blue-600 group shadow-sm" href="#0">
                           Read Story <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                         </a>
-                      </div> */}
+                      </div> 
                     </div>
                   </div>
                   {/* Testimonial */}
@@ -211,7 +211,7 @@ export default function Testimonials() {
                             -&gt;
                           </span>
                         </a>
-                      </div> */}
+                      </div> 
                     </div>
                   </div>
                 </div>
