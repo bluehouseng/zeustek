@@ -79,7 +79,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-9 h-9  mr-4  rounded-md" src={Author01} width="36" height="36" alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                          
                         </div>
                       </div>
@@ -109,7 +109,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                         
                         </div>
                       </div>
@@ -139,7 +139,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                          
                         </div>
                       </div>
@@ -169,7 +169,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                         
                         </div>
                       </div>
@@ -199,7 +199,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                          
                         </div>
                       </div>
@@ -229,7 +229,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
 
                         </div>
                       </div>
@@ -259,7 +259,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                        
                         </div>
                       </div>
@@ -289,7 +289,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
                           
                         </div>
                       </div>
@@ -319,7 +319,7 @@ export default function Inspiration() {
                       <div className="flex items-center">
                         <Image className="shrink-0 w-10 h-10 rounded-md mr-4" src={Author01} width={40} height={40} alt="Author 01" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate">Tare</div>
 
                         </div>
                       </div>
