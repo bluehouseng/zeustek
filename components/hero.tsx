@@ -35,7 +35,7 @@ function Explainer() {
             muted
             // controls
           >
-            <source src="https://res.cloudinary.com/dlf3o8cx3/video/upload/v1700003046/videos/techfestvideo-bad2796a_il63ul.mp4" />
+            <source src="https://res.cloudinary.com/mbrag/video/upload/v1714666177/ZEUSTEKKK_bcb9nm.mp4" />
           </video>
           <div className="relative w-full h-full ">
             <div className="flex items-end justify-center h-full">
