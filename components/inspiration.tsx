@@ -4,16 +4,16 @@ import { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import Author01 from "@/public/images/author-01.jpg";
-import Inspiration01 from "@/public/images/inspiration-01.jpg";
-import Inspiration02 from "@/public/images/inspiration-02.jpg";
+import  Author01 from "@/public/logo.png";
+import Inspiration01 from "@/public/images/15.jpg";
+import Inspiration02 from "@/public/images/10.jpg";
 import Inspiration03 from "@/public/images/inspiration-03.jpg";
-import Inspiration04 from "@/public/images/inspiration-04.jpg";
+import Inspiration04 from "@/public/images/16.jpg";
 import Inspiration05 from "@/public/images/inspiration-05.jpg";
-import Inspiration06 from "@/public/images/inspiration-06.jpg";
-import Inspiration07 from "@/public/images/inspiration-07.jpg";
+import Inspiration06 from "@/public/images/9.jpg";
+import Inspiration07 from "@/public/images/17.jpg";
 import Inspiration08 from "@/public/images/inspiration-08.jpg";
-import Inspiration09 from "@/public/images/inspiration-09.jpg";
+import Inspiration09 from "@/public/images/12.jpg";
 import bluehouse from "@/public/images/bluehouse .jpg";
 import zeustek from "@/public/images/zeustek1.jpg";
 

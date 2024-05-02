@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import CreativesImage from "@/public/images/creatives.jpg";
-import inspiration01 from "@/public/images/inspiration-01.jpg";
+import inspiration01 from "@/public/images/14.jpg";
 import inspiration02 from "@/public/images/inspiration-02.jpg";
 import inspiration03 from "@/public/images/inspiration-03.jpg";
-import inspiration04 from "@/public/images/inspiration-04.jpg";
+import inspiration04 from "@/public/images/15.jpg";
 
 export default function Creatives() {
   return (
