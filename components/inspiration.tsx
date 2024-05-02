@@ -185,9 +185,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                         
                         </div>
                       </div>
                       {/* Right side */}
@@ -251,7 +250,7 @@ export default function Inspiration() {
                         />
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
-                            Zeustek
+                            Tare
                           </div>
                         </div>
                       </div>
@@ -314,9 +313,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                         
                         </div>
                       </div>
                       {/* Right side */}
@@ -378,9 +376,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                        
                         </div>
                       </div>
                       {/* Right side */}
@@ -442,9 +439,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                         
                         </div>
                       </div>
                       {/* Right side */}
@@ -506,9 +502,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+
                         </div>
                       </div>
                       {/* Right side */}
@@ -570,9 +565,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                       
                         </div>
                       </div>
                       {/* Right side */}
@@ -634,9 +628,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+                          
                         </div>
                       </div>
                       {/* Right side */}
@@ -698,9 +691,8 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">
-                            Zeustek
-                          </div>
+                          <div className="font-bold text-white truncate">Zeustek</div>
+
                         </div>
                       </div>
                       {/* Right side */}
