@@ -1,6 +1,6 @@
 import ema from "./ema.png";
 import Link from "next/link";
-import What from "@/public/images/author-01.jpg";
+import What from "@/public/images/logo1.png";
 import Image from "next/image";
 
 export default function Footer() {

@@ -1,18 +1,17 @@
 import Link from "next/link";
 import MobileMenu from "./mobile-menu";
 import Image from "next/image";
-import  Author01 from "@/public/logo.png";
-
+import Author01 from "@/public/images/logo1.png";
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 flex ">
+    <header className="absolute w-full z-30 flex bg-black ">
       <div className="  px-4 sm:px-6 items-center justify-center">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="d-flex justify-content-end justify-content-sm-start">
             <div className=" md:mr-1  lg:mr-72 mr-64 mt-1">
-              <Image src={ Author01} alt="Your Image" width={50} height={50} />
+              <Image src={Author01} alt="Your Image" width={50} height={50} />
             </div>
           </div>
           {/* Desktop navigation */}
@@ -22,7 +21,7 @@ export default function Header() {
               <li>
                 <Link
                   className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
-                  href="#section4"
+                  href="/hero"
                 >
                   <button className="px-3 py-1 rounded-lg  ">Home</button>
                 </Link>
@@ -30,7 +29,7 @@ export default function Header() {
               <li>
                 <Link
                   className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
-                  href="#section1"
+                  href="/gallery"
                 >
                   <button className="px-3 py-1 rounded-lg  ">Gallery </button>
                 </Link>
@@ -38,7 +37,7 @@ export default function Header() {
               <li>
                 <Link
                   className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
-                  href="#section2"
+                  href="/about"
                 >
                   <button className="px-3 py-1 rounded-lg  ">About</button>
                 </Link>
@@ -46,7 +45,7 @@ export default function Header() {
               <li>
                 <Link
                   className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href='/Contact'
+                  href=""
                 >
                   <button className="px-3 py-1 rounded-lg  ">Contact us</button>
                 </Link>
@@ -56,7 +55,7 @@ export default function Header() {
                   className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
                   href="#section1"
                 >
-                  <button className="px-3 py-1 rounded-lg  ">Tare </button>
+                  <button className="px-3 py-1 rounded-lg  ">Testimonials </button>
                 </Link>
               </li>
             </ul>
