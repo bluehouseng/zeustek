@@ -29,7 +29,7 @@ function Explainer() {
 
           <video
             id="explainer-video"
-            className="w-full h-full absolute top-0 left-0 herobackground object-cover "
+            className="w-full h-full absolute top-0 left-0 herobackground object-cover"
             autoPlay={true}
             loop
             muted
@@ -41,7 +41,7 @@ function Explainer() {
             <div className="flex items-end justify-center h-full">
               
                 <h2 className="text-4xl text-center text-white font-extrabold">
-                   empowering market women |<br />
+                   Empowering Market Women |<br />
                   
                     <p className="text-2xl">
                       Navigating the Digital Frontier of Economic Transformation

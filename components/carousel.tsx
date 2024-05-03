@@ -51,10 +51,10 @@ function Clients() {
         </div>
 
         
-        <div className="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-cyan-500 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-cyan-500">
+        <div className="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-white after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-white">
           <div className="swiper-wrapper !ease-linear select-none">
            
-            <div className="swiper-slide !h-32 !w-32 bg-cyan-400  rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32  rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={uj}
@@ -62,14 +62,14 @@ function Clients() {
               />
             </div>
            
-            <div className="swiper-slide !h-32 !w-32 bg-cyan-400  rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32   rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={gps}
                 alt="Client 07"
               />
             </div>
-            <div className="swiper-slide !h-32 !w-32 bg-cyan-400 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32  rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={giz}
@@ -77,21 +77,21 @@ function Clients() {
               />
             </div>
 
-            <div className="swiper-slide !h-32 !w-32 bg-cyan-400  rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32   rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={jtg}
                 alt="Client 09"
               />
             </div>
-            <div className="swiper-slide !h-32 !w-32  bg-cyan-400  rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32    rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={itf}
                 alt="Client 10"
               />
             </div>
-            <div className="swiper-slide !h-32 !w-32 bg-cyan-400 rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-32  rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={gdg}
@@ -99,7 +99,7 @@ function Clients() {
               />
             </div>
            
-            <div className="swiper-slide !h-32 !w-32  bg-cyan-400  rounded-2xl flex items-center justify-center group">
+            <div className="swiper-slide !h-32 !w-3  rounded-2xl flex items-center justify-center group">
               <Image
                 className=""
                 src={pictda}
