@@ -7,50 +7,29 @@ import Image from "next/image";
 import  Author01 from "@/public/logo.png";
 import Inspiration01 from "@/public/images/15.jpg";
 import Inspiration02 from "@/public/images/10.jpg";
-import Inspiration03 from "@/public/images/inspiration-03.jpg";
-import Inspiration04 from "@/public/images/16.jpg";
-import Inspiration05 from "@/public/images/inspiration-05.jpg";
+import Inspiration03 from "@/public/images/1.jpg";
+import Inspiration04 from "@/public/images/20.jpg";
+import Inspiration05 from "@/public/images/19.jpg";
 import Inspiration06 from "@/public/images/9.jpg";
 import Inspiration07 from "@/public/images/17.jpg";
-import Inspiration08 from "@/public/images/inspiration-08.jpg";
+import Inspiration08 from "@/public/images/18.jpg";
 import Inspiration09 from "@/public/images/12.jpg";
-import bluehouse from "@/public/images/bluehouse .jpg";
-import zeustek from "@/public/images/zeustek1.jpg";
+
 
 export default function Inspiration() {
   const [category, setCategory] = useState<string>("0");
 
   return (
     <section id="section1 ">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center -m-1.5  -mb-52 -mt-20">
         <div className="py-12 md:pt-32 md:pb-20 text-center justify-center">
           {/* Section header */}
-          <div className="mb-24">
+          <div className="">
            
-            <div className=" text-center justify-center flex">
-              <div className="">
-                <Image
-                  className="m-8"
-                  src={bluehouse}
-                  width={100}
-                  height={100}
-                  alt="Author 01"
-                />
-              </div>
-              <div className="">
-                <Image
-                  className="m-9"
-                  src={zeustek}
-                  width={64}
-                  height={64}
-                  alt="Author 01"
-                />
-              </div>
-            </div>
-            <h2 className="text-[20px] font-cabinet-grotesk text-center mt-0">powered by:</h2>
+            
           </div>
-          <div className="pb-12 md:pb-14 text-center justify-center">
-            <div className="relative text-center md:text-left justify-center m-2 ">
+          <div className="pb-12  text-center justify-center">
+            <div className="relative text-center md:text-left justify-center  ">
               <div>
                 {/* <svg
                   className="fill-gray-300  hidden md:block absolute -mt-6 ml-96 justify-center "
@@ -79,25 +58,25 @@ export default function Inspiration() {
           {/* Content */}
           <div>
             {/* Category buttons */}
-            <div className="mb-8">
-              <div className="flex flex-wrap justify-center md:justify-start -m-1.5">
+            <div className="mb-7">
+              <div className="flex flex-wrap justify-center md:justify-start -m-1.5  text-center">
                 <button
-                  className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${
+                  className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 text-center ${
                     category === "0"
                       ? "bg-blue-100 border-blue-300"
                       : "bg-white border-gray-200"
                   }`}
                   onClick={() => setCategory("0")}
                 >
-                  <div className="flex items-center justify-center">
+                  <div className="flex items-center justify-center mr-1">
                     <span>All</span>
-                    <span
+                    {/* <span
                       className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${
                         category === "3"
                           ? "text-white bg-blue-300"
                           : "text-gray-400 bg-gray-100"
                       }`}
-                    ></span>
+                    ></span> */}
                   </div>
                 </button>
                 <button
@@ -108,34 +87,34 @@ export default function Inspiration() {
                   }`}
                   onClick={() => setCategory("1")}
                 >
-                  <div className="flex items-center justify-center">
+                  <div className="flex items-center justify-center  mr-1">
                     <span>Trainees</span>
-                    <span
+                    {/* <span
                       className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${
                         category === "3"
                           ? "text-white bg-blue-300"
                           : "text-gray-400 bg-gray-100"
                       }`}
-                    ></span>
+                    ></span> */}
                   </div>
                 </button>
                 <button
-                  className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${
+                  className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 justify-center ${
                     category === "3"
                       ? "bg-blue-100 border-blue-300"
                       : "bg-white border-gray-200"
                   }`}
                   onClick={() => setCategory("3")}
                 >
-                  <div className="flex items-center justify-center">
+                  <div className="flex items-center justify-center  mr-1">
                     <span>community</span>
-                    <span
+                    {/* <span
                       className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${
                         category === "3"
                           ? "text-white bg-blue-300"
                           : "text-gray-400 bg-gray-100"
                       }`}
-                    ></span>
+                    ></span> */}
                   </div>
                 </button>
               </div>
@@ -186,7 +165,7 @@ export default function Inspiration() {
                         />
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
-                            Zeustek
+                            Tare
                           </div>
                         </div>
                       </div>
@@ -250,7 +229,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
                         
                         </div>
                       </div>
@@ -313,7 +292,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
                          
                         </div>
                       </div>
@@ -376,7 +355,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
                         
                         </div>
                       </div>
@@ -439,7 +418,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
                          
                         </div>
                       </div>
@@ -502,7 +481,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
 
                         </div>
                       </div>
@@ -565,7 +544,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
                        
                         </div>
                       </div>
@@ -628,7 +607,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
                           
                         </div>
                       </div>
@@ -691,7 +670,7 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Zeustek</div>
+                          <div className="font-bold text-white truncate"> Tare</div>
 
                         </div>
                       </div>
