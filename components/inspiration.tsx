@@ -148,8 +148,8 @@ export default function Inspiration() {
                     className="w-full aspect-square object-cover rounded-md"
                     // loader={() => src}
                     // loader={`loading...`}
-                    src={src}
-                    // src={`https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`}
+                    // src={src}
+                    src={`https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 01"
