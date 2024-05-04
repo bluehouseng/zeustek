@@ -52,22 +52,22 @@ export default function MobileMenu() {
       <nav
         id="mobile-nav"
         ref={mobileNav}
-        className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out bg-black   "
+        className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out bg-white   "
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
         <ul className="border border-transparent rounded-lg px-4 py-1.5  ml-48  italic" >
           <li>
-            <Link className="flex font-medium text-sm text-white py-1.5" href="/">Home </Link>
+            <Link className="flex font-medium text-sm text-black py-1.5" href="/">Home </Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-white py-1.5" href="/gallery">Gallery</Link>
+            <Link className="flex font-medium text-sm text-black py-1.5" href="/gallery">Gallery</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-white  py-1.5  " href="/about">About</Link>
+            <Link className="flex font-medium text-sm text-black  py-1.5  " href="/about">About</Link>
           </li>
          
           <li>
-            <Link className="flex font-medium text-sm text-white py-1.5" href="/contact">Contact us</Link>
+            <Link className="flex font-medium text-sm text-black py-1.5" href="/contact">Contact us</Link>
           </li>
           <li>
 
