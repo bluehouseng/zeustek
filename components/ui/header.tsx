@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 flex bg-black italic ">
+    <header className="absolute w-full z-30 flex bg-white italic ">
       <div className="  px-4 sm:px-6 items-center justify-center">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
@@ -20,7 +20,7 @@ export default function Header() {
             <ul className="flex grow justify-center flex-wrap items-center italic">
               <li>
                 <Link
-                  className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
+                  className="text-black mx-4 lg:mx-5 transition duration-150 ease-in-out "
                   href="/"
                 >
                   <button className="px-3 py-1 rounded-lg italic ">Home</button>
@@ -28,34 +28,42 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
+                  className="text-black mx-4 lg:mx-5 transition duration-150 ease-in-out "
                   href="/gallery"
                 >
-                  <button className="px-3 py-1 rounded-lg italic ">Gallery </button>
+                  <button className="px-3 py-1 rounded-lg italic ">
+                    Gallery{" "}
+                  </button>
                 </Link>
               </li>
               <li>
                 <Link
-                  className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
+                  className="text-black mx-4 lg:mx-5 transition duration-150 ease-in-out "
                   href="/about"
                 >
-                  <button className="px-3 py-1 rounded-lg  italic ">About</button>
+                  <button className="px-3 py-1 rounded-lg  italic ">
+                    About
+                  </button>
                 </Link>
               </li>
               <li>
                 <Link
-                  className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
+                  className="text-black mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="/contact"
                 >
-                  <button className="px-3 py-1 rounded-lg italic ">Contact us</button>
+                  <button className="px-3 py-1 rounded-lg italic ">
+                    Contact us
+                  </button>
                 </Link>
               </li>
               <li>
                 <Link
-                  className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
+                  className="text-black mx-4 lg:mx-5 transition duration-150 ease-in-out "
                   href="/testimonial"
                 >
-                  <button className="px-3 py-1 rounded-lg  italic">Testimonials </button>
+                  <button className="px-3 py-1 rounded-lg  italic">
+                    Testimonials{" "}
+                  </button>
                 </Link>
               </li>
             </ul>

@@ -18,7 +18,7 @@ export default function Gallery() {
     <div className=" lg:mt-[10%] mt-24 italic ">
       <div className="max-w-7xl mx-auto text-center pb-12 md:pb-16">
         <div className="mb-80">
-          <h2 className="text-2xl md:text-3xl font-bold ">Tare Gallery.</h2>
+          <h2 className="text-2xl md:text-3xl font-bold "> Gallery.</h2>
           <p className="text-xl text-gray-600 mb-[100%] lg:mb-0">
             Building dreams upon a bedrock of compassion and empowerment.
           </p>
