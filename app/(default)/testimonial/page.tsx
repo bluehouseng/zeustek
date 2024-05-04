@@ -35,14 +35,14 @@ export default function Testimonial() {
           </video>
     </figure>
     </a>
-    {/* <div>
+    <div>
         <video className="w-full h-full  top-0 left-0" 
             autoPlay={true}
             loop
             muted
             // controls 
             src="https://res.cloudinary.com/draxf5wop/video/upload/v1714741031/testimony_b51s9d.mp4"></video>
-                                       </div> */}
+                                       </div>
                                         <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
                                             <a className="hover:underline" href="blog-post.html">Learnt Digital Marketing to aid in Digitalizing my Business.</a>
                                         </h3>
@@ -78,6 +78,14 @@ export default function Testimonial() {
                                         <div>
                                             <img className="w-full h-full  top-0 left-0 src=@/public/images/img 4.jpg"/>
                                         </div>
+                                        <div>
+        <video className="w-full h-full  top-0 left-0" 
+            autoPlay={true}
+            loop
+            muted
+            // controls 
+            src="https://res.cloudinary.com/draxf5wop/video/upload/v1714741031/testimony_b51s9d.mp4"></video>
+                                       </div>
                                         <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
                                             <a className="hover:underline" href="blog-post.html">Using Digital Technologies to up scale business</a>
                                         </h3>
@@ -117,6 +125,14 @@ export default function Testimonial() {
                                                 </li>
                                             </ul>
                                         </div> */}
+                                        <div>
+        <video className="w-full h-full  top-0 left-0" 
+            autoPlay={true}
+            loop
+            muted
+            // controls 
+            src="https://res.cloudinary.com/draxf5wop/video/upload/v1714741031/testimony_b51s9d.mp4"></video>
+                                       </div>
                                         <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
                                             <a className="hover:underline" href="blog-post.html">Improved Conversion Rates</a>
                                         </h3>
@@ -152,6 +168,14 @@ export default function Testimonial() {
                                                 </li>
                                             </ul>
                                         </div> */}
+                                        <div>
+        <video className="w-full h-full  top-0 left-0" 
+            autoPlay={true}
+            loop
+            muted
+            // controls 
+            src="https://res.cloudinary.com/draxf5wop/video/upload/v1714741031/testimony_b51s9d.mp4"></video>
+                                       </div>
                                         <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
                                             <a className="hover:underline" href="blog-post.html">Increase in Website Traffic</a>
                                         </h3>
@@ -187,11 +211,19 @@ export default function Testimonial() {
                                                 </li>
                                             </ul>
                                         </div> */}
+                                        <div>
+        <video className="w-full h-full  top-0 left-0" 
+            autoPlay={true}
+            loop
+            muted
+            // controls 
+            src="https://res.cloudinary.com/draxf5wop/video/upload/v1714741031/testimony_b51s9d.mp4"></video>
+                                       </div>
                                         <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
                                             <a className="hover:underline" href="blog-post.html">Better Brand Awareness</a>
                                         </h3>
                                     </header>
-                                    <p className="text-gray-600 grow">Our brand struggled to gain traction online. Through digital marketing, our brand awareness has skyrocketed and we're seeing much higher engagement on social media</p>
+                                    <p className="text-gray-600 grow">Our brand struggled to gain traction online. Through digital marketing, our brand awareness has skyrocketed and we're seeing much higher engagement on social media.</p>
                                     <footer className="text-sm flex items-center mt-4">
                                         {/* <div className="flex shrink-0 mr-3">
                                             <a className="relative" href="#0">
@@ -227,6 +259,14 @@ export default function Testimonial() {
                                                 </li>
                                             </ul>
                                         </div> */}
+                                        <div>
+        <video className="w-full h-full  top-0 left-0" 
+            autoPlay={true}
+            loop
+            muted
+            // controls 
+            src="https://res.cloudinary.com/draxf5wop/video/upload/v1714741031/testimony_b51s9d.mp4"></video>
+                                       </div>
                                         <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
                                             <a className="hover:underline" href="blog-post.html">Improved Social Media Engagement</a>
                                         </h3>
