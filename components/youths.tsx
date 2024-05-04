@@ -83,13 +83,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-9 h-9  mr-4  rounded-md"
                           src={Author01}
                           width="36"
                           height="36"
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -148,13 +148,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -212,13 +212,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -276,13 +276,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -340,13 +340,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -404,13 +404,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -468,13 +468,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -532,13 +532,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -596,13 +596,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare

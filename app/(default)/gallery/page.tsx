@@ -84,183 +84,182 @@ export default function Gallery() {
             </figure>
           </div>
         </div>
-      </div><section className="">
-    <div className=" max-w-6xl mx-auto flex flex-wrap justify-center items-center ">
-      <div className="w-full">
-        {/* <h1 className="text-3xl  text-[#737373] text-center mb-4">
+      </div>
+      <section className="">
+        <div className=" max-w-6xl mx-auto flex flex-wrap justify-center items-center ">
+          <div className="w-full">
+            {/* <h1 className="text-3xl  text-[#737373] text-center mb-4">
           Our Products
         </h1> */}
-        <p className="text-lg text-center mt-[30%]  lg:mt-16 lg:m-1font-bold">
-        Empowerment
-      
-        </p>
-        <p className="text-base text-[#737373] text-center lg:mb-8  ">
-        Collaboration amplifies potential, turning individual sparks into a blazing trail of collective brilliance.
-        </p>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek11} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Empowering  
-            </div>
-            {/* <div className="text-[#737373] text-base text-center">
+            <p className="text-lg text-center mt-[30%]  lg:mt-16 lg:m-1font-bold">
+              Empowerment
+            </p>
+            <p className="text-base text-[#737373] text-center lg:mb-8  ">
+              Collaboration amplifies potential, turning individual sparks into
+              a blazing trail of collective brilliance.
+            </p>
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image
+                className="w-full rounded-md"
+                src={zeustek11}
+                alt="Image"
+              />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Empowering</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek9} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" rounded-md text-xl mb-2 text-center">
-            Traniees
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek9} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" rounded-md text-xl mb-2 text-center">
+                  Traniees
+                </div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek1} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-              Training 
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek1} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Training</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek5} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" rounded-md text-xl mb-2 text-center">
-            Tech women
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek5} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" rounded-md text-xl mb-2 text-center">
+                  Tech women
+                </div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek6} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Tare Foundation
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek6} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Tare Foundation</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek7} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Exposure to tech
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek7} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">
+                  Exposure to tech
+                </div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek8} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Strengthen
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek8} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Strengthen</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">N1,000.00</div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek9} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Inspire
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image className="w-full rounded-md" src={zeustek9} alt="Image" />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Inspire</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">N1,000.00</div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek10} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Enhance
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image
+                className="w-full rounded-md"
+                src={zeustek10}
+                alt="Image"
+              />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Enhance</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
-          </div>
-        </div>
-      </div>
-      <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
-        <div className="  justify-center  ">
-          <Image className="w-full rounded-md" src={zeustek11} alt="Image" />
-          <div className="px-6 py-4">
-            <div className=" text-xl mb-2 text-center">
-            Strengthen
+              </div>
             </div>
-            {/* <div className="text-[#737373] text-base text-center">
+          </div>
+          <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
+            <div className="  justify-center  ">
+              <Image
+                className="w-full rounded-md"
+                src={zeustek11}
+                alt="Image"
+              />
+              <div className="px-6 py-4">
+                <div className=" text-xl mb-2 text-center">Strengthen</div>
+                {/* <div className="text-[#737373] text-base text-center">
               English Department
             </div>
             <div className="text-[#BDBDBD] text-base text-center">
               N1,000.00
             </div> */}
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      {/* <div className="w-full text-center mt-16">
+          {/* <div className="w-full text-center mt-16">
         <button className=" text-[#2174EA]  py-2 px-12 rounded border-2">
           See More
         </button>
       </div> */}
-    </div>
-    </section>
+        </div>
+      </section>
     </div>
   );
 }
