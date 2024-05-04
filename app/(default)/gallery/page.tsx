@@ -15,11 +15,11 @@ import zeustek12 from "@/public/images/9.jpg";
 
 export default function Gallery() {
   return (
-    <div className=" lg:mt-[10%] mt-24 ">
+    <div className=" lg:mt-[10%] mt-24 italic ">
       <div className="max-w-7xl mx-auto text-center pb-12 md:pb-16">
         <div className="mb-80">
           <h2 className="text-2xl md:text-3xl font-bold ">Tare Gallery.</h2>
-          <p className="text-xl text-gray-600 ">
+          <p className="text-xl text-gray-600 mb-[100%] lg:mb-0">
             Building dreams upon a bedrock of compassion and empowerment.
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function Gallery() {
         {/* <h1 className="text-3xl  text-[#737373] text-center mb-4">
           Our Products
         </h1> */}
-        <p className="text-lg text-center mt-16 lg:m-1font-bold">
+        <p className="text-lg text-center mt-[30%]  lg:mt-16 lg:m-1font-bold">
         Empowerment
       
         </p>
@@ -103,7 +103,7 @@ export default function Gallery() {
           <Image className="w-full rounded-md" src={zeustek11} alt="Image" />
           <div className="px-6 py-4">
             <div className=" text-xl mb-2 text-center">
-            empowering  
+            Empowering  
             </div>
             {/* <div className="text-[#737373] text-base text-center">
               English Department
@@ -119,7 +119,7 @@ export default function Gallery() {
           <Image className="w-full rounded-md" src={zeustek9} alt="Image" />
           <div className="px-6 py-4">
             <div className=" rounded-md text-xl mb-2 text-center">
-            traniees
+            Traniees
             </div>
             {/* <div className="text-[#737373] text-base text-center">
               English Department
@@ -135,7 +135,7 @@ export default function Gallery() {
           <Image className="w-full rounded-md" src={zeustek1} alt="Image" />
           <div className="px-6 py-4">
             <div className=" text-xl mb-2 text-center">
-              Tare Foundation
+              Training 
             </div>
             {/* <div className="text-[#737373] text-base text-center">
               English Department
@@ -151,7 +151,7 @@ export default function Gallery() {
           <Image className="w-full rounded-md" src={zeustek5} alt="Image" />
           <div className="px-6 py-4">
             <div className=" rounded-md text-xl mb-2 text-center">
-            tech women
+            Tech women
             </div>
             {/* <div className="text-[#737373] text-base text-center">
               English Department
@@ -183,7 +183,7 @@ export default function Gallery() {
           <Image className="w-full rounded-md" src={zeustek7} alt="Image" />
           <div className="px-6 py-4">
             <div className=" text-xl mb-2 text-center">
-            Tare Foundation
+            Exposure to tech
             </div>
             {/* <div className="text-[#737373] text-base text-center">
               English Department
