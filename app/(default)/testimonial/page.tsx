@@ -12,7 +12,7 @@ export default function Testimonial() {
                     <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
                         {/* <!-- Page header --> */}
-                        <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left text-center">
+                        <div className="max-w-3xl pb-12 md:pb-20 md:text-left text-center">
                             <h2 className="h2">Trainees Testimonies</h2>
                         </div>
                          {/* <!-- Articles list --> */}
