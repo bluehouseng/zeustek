@@ -214,7 +214,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration02}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859339/coubpenls0oxkx7sw5hf.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 02"
@@ -279,7 +279,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration03}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859326/esyl0bkl3ugs6qnltkm4.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 03"
@@ -344,7 +344,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration04}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859191/xo6psw8mvfmicvptbjib.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 04"
@@ -409,7 +409,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration05}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859191/xo6psw8mvfmicvptbjib.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 05"
@@ -474,7 +474,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration06}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858650/yaj7lpdnr0cbj3qgwkzg.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 06"
@@ -539,7 +539,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration07}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858650/yaj7lpdnr0cbj3qgwkzg.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 07"
@@ -604,7 +604,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration08}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858621/rytlxfcj7m8asqer3khj.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 08"
@@ -669,7 +669,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration09}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858662/wdofyahhfcivntotbypc.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 09"
