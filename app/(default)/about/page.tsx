@@ -5,8 +5,8 @@ import images from "@/public/images/19.jpg";
 
   export default function About() {
     return (
-      <section>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <section className="italic">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 italic">
           <div className="pt-12 pb-12 md:pt-40 md:pb-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">

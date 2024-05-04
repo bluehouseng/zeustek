@@ -6,7 +6,7 @@ import zeustek from "@/public/images/zeustek1.jpg";
 function Powered() {
   return (
     <div>
-      <div className=" text-center justify-center flex m-7 -mb-1">
+      <div className=" text-center justify-center flex m-7 -mb-1 italic">
         <div className="">
           <Image
             className="m-2"
@@ -26,7 +26,7 @@ function Powered() {
           />
         </div>
       </div>
-      <h2 className="text-[20px] font-cabinet-grotesk text-center mt-3">
+      <h2 className="text-[20px] font-cabinet-grotesk text-center lg:mt-3 mb-12">
         powered by:
       </h2>
     </div>

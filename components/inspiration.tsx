@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import  Author01 from "@/public/logo.png";
+import Author01 from "@/public/logo.png";
 import Inspiration01 from "@/public/images/15.jpg";
 import Inspiration02 from "@/public/images/10.jpg";
 import Inspiration03 from "@/public/images/1.jpg";
@@ -15,19 +15,25 @@ import Inspiration07 from "@/public/images/17.jpg";
 import Inspiration08 from "@/public/images/18.jpg";
 import Inspiration09 from "@/public/images/12.jpg";
 
-
 export default function Inspiration() {
   const [category, setCategory] = useState<string>("0");
 
+  const src = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src1 = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src3 = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src3 = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src4 = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src5 = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+  // const src = `https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`;
+
   return (
-    <section id="section1 ">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center -m-1.5  -mb-52 -mt-20">
+    <section id="section1  italic">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center -m-1.5  -mb-52 -mt-20 italic">
         <div className="py-12 md:pt-32 md:pb-20 text-center justify-center">
           {/* Section header */}
-          <div className="">
-           
-            
-          </div>
+          <div className=""></div>
           <div className="pb-12  text-center justify-center">
             <div className="relative text-center md:text-left justify-center  ">
               <div>
@@ -140,7 +146,10 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration01}
+                    // loader={() => src}
+                    // loader={`loading...`}
+                    src={src}
+                    // src={`https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 01"
@@ -229,8 +238,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-                        
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -292,8 +303,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-                         
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -355,8 +368,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-                        
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -418,8 +433,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-                         
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -481,8 +498,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -544,8 +563,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-                       
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -607,8 +628,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-                          
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -670,8 +693,10 @@ export default function Inspiration() {
                           alt="Author 01"
                         />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate"> Tare</div>
-
+                          <div className="font-bold text-white truncate">
+                            {" "}
+                            Tare
+                          </div>
                         </div>
                       </div>
                       {/* Right side */}

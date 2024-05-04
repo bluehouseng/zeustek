@@ -23,7 +23,7 @@ function Explainer() {
 
     
 
-      <div className="w-full bg-black sm:px-4">
+      <div className="w-full bg-black sm:px-4 italic">
         <div className=" md:py-20 h-screen  relative">
           <div className="absolute w-full h-full top-0 left-0 z-20 bg-black opacity-20" />
 

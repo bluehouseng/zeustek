@@ -7,7 +7,7 @@ import image from '@/public/images/img 4.jpg'
 export default function Testimonial() {
     return (
         <div>
-            <section className="relative">
+            <section className="relative italic">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 

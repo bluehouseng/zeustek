@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <section id="section3">
+    <section id="section3 italic">
       <footer className="bg-white">
         {/* Bottom area */}
         <div className="text-left md:flex md:items-left md:justify-between mb-8 md:mb-6">
@@ -27,7 +27,7 @@ export default function Footer() {
               </div>
 
               {/* 2nd block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+              {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Products
                 </h6>
@@ -63,7 +63,7 @@ export default function Footer() {
                     >
                       Changelog
                     </a>
-                  </li> */}
+                  </li> 
                   <li>
                     <a
                       className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
@@ -73,10 +73,10 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 3rd block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 italic">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Company
                 </h6>
@@ -125,7 +125,7 @@ export default function Footer() {
               </div>
 
               {/* 4th block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 italic">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Resources
                 </h6>
@@ -158,7 +158,7 @@ export default function Footer() {
               </div>
 
               {/* 5th block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 italic">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Legals
                 </h6>
@@ -187,14 +187,14 @@ export default function Footer() {
                       Privacy policy
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Brand Kit
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
