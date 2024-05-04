@@ -21,7 +21,7 @@ export default function Header() {
               <li>
                 <Link
                   className="text-white mx-4 lg:mx-5 transition duration-150 ease-in-out "
-                  href="/hero"
+                  href="/"
                 >
                   <button className="px-3 py-1 rounded-lg italic ">Home</button>
                 </Link>
