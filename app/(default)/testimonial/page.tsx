@@ -223,7 +223,7 @@ export default function Testimonial() {
                                             <a className="hover:underline" href="blog-post.html">Better Brand Awareness</a>
                                         </h3>
                                     </header>
-                                    <p className="text-gray-600 grow">Our brand struggled to gain traction online. Through digital marketing, our brand awareness has skyrocketed and we're seeing much higher engagement on social media</p>
+                                    <p className="text-gray-600 grow">Our brand struggled to gain traction online. Through digital marketing, our brand awareness has skyrocketed and we're seeing much higher engagement on social media.</p>
                                     <footer className="text-sm flex items-center mt-4">
                                         {/* <div className="flex shrink-0 mr-3">
                                             <a className="relative" href="#0">
