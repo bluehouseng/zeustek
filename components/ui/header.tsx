@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MobileMenu from "./mobile-menu";
 import Image from "next/image";
-import Author01 from "@/public/images/logo1.png";
+// import Author01 from "@/public/images/logo1.png";
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="d-flex justify-content-end justify-content-sm-start">
             <div className=" md:mr-1  lg:mr-72 mr-64 mt-1 ">
-              <Image src={Author01} alt="Your Image" width={50} height={50} />
+              {/* <Image src={} alt="Your Image" width={50} height={50} /> */}
             </div>
           </div>
           {/* Desktop navigation */}

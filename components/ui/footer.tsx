@@ -19,7 +19,7 @@ export default function Footer() {
                     <div className="mb-4">
                       {/* logo*/}
                       <div className="mb-8g sm:mb-0">
-                        <Image className="w-10 h-13" src={What} alt="water" />
+                        {/* <Image className="w-10 h-13" src={What} alt="water" /> */}
                       </div>
                     </div>
                   </div>
