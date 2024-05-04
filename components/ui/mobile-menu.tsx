@@ -55,7 +55,7 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out bg-black   "
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="border border-transparent rounded-lg px-4 py-1.5  ml-56  italic" >
+        <ul className="border border-transparent rounded-lg px-4 py-1.5  ml-48  italic" >
           <li>
             <Link className="flex font-medium text-sm text-white py-1.5" href="/">Home </Link>
           </li>
