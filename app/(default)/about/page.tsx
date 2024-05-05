@@ -23,7 +23,7 @@ import images from "@/public/images/19.jpg";
         {/* First Image */}
         <div className="flex justify-center rounded-md -mt-24 mb-6">
           <img
-            src={"/images/14.jpg"}
+            src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859193/aaea1rml3b1tzdjxqg0v.jpg`}
             alt="some image"
             width={500}
             height={600}
@@ -48,7 +48,7 @@ import images from "@/public/images/19.jpg";
             <div className="sm:flex items-center rounded-md ">
               <div className=""> 
               <img
-                src={"/images/9.jpg"}
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858606/q3v4px2h2urjqkjt1qwv.jpg`}
                 alt="some image"
                 width={500}
                 height={600}

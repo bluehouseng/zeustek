@@ -35,7 +35,7 @@ export default function Gallery() {
             >
               <Image
                 className="shadow-2xl rounded-md"
-                src={zeustek3}
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859193/aaea1rml3b1tzdjxqg0v.jpg`}
                 width={320}
                 height={240}
                 alt="Team mosaic 02"
@@ -49,7 +49,7 @@ export default function Gallery() {
             >
               <Image
                 className="shadow-2xl rounded-md"
-                src={zeustek9}
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859193/aaea1rml3b1tzdjxqg0v.jpg`}
                 width={540}
                 height={360}
                 alt="Team mosaic 01"
@@ -62,7 +62,7 @@ export default function Gallery() {
             >
               <Image
                 className="shadow-2xl rounded-md"
-                src={zeustek1}
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858606/q3v4px2h2urjqkjt1qwv.jpg`}
                 width={320}
                 height={240}
                 alt="Team mosaic 02"
@@ -76,7 +76,7 @@ export default function Gallery() {
             >
               <Image
                 className="shadow-2xl rounded-md"
-                src={zeustek4}
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859292/zgpb3apgyucazxcdkskw.jpg`}
                 width={320}
                 height={240}
                 alt="Team mosaic 02"
