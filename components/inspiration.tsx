@@ -148,8 +148,8 @@ export default function Inspiration() {
                     className="w-full aspect-square object-cover rounded-md"
                     // loader={() => src}
                     // loader={`loading...`}
-                    src={src}
-                    // src={`https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`}
+                    // src={src}
+                    src={`https://res.cloudinary.com/draxf5wop/image/upload/v1714751200/bqau2lpv2lqjwvp9usv6.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 01"
@@ -165,13 +165,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-9 h-9  mr-4  rounded-md"
                           src={Author01}
                           width="36"
                           height="36"
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -214,7 +214,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration02}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859339/coubpenls0oxkx7sw5hf.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 02"
@@ -230,13 +230,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -279,7 +279,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={"https://res.cloudinary.com/dnrsomsds/image/upload/v1714898418/number11_nljm1j.jpg"}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859326/esyl0bkl3ugs6qnltkm4.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 03"
@@ -295,13 +295,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -344,7 +344,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration04}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859241/bf8krrrdigk7ski60am9.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 04"
@@ -360,13 +360,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -409,7 +409,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration05}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859191/xo6psw8mvfmicvptbjib.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 05"
@@ -425,13 +425,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -474,7 +474,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration06}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858650/yaj7lpdnr0cbj3qgwkzg.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 06"
@@ -490,13 +490,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -539,7 +539,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration07}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858650/yaj7lpdnr0cbj3qgwkzg.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 07"
@@ -555,13 +555,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -604,7 +604,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration08}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858621/rytlxfcj7m8asqer3khj.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 08"
@@ -620,13 +620,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}
@@ -669,7 +669,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration09}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858662/wdofyahhfcivntotbypc.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 09"
@@ -685,13 +685,13 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             {" "}

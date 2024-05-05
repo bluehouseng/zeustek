@@ -4,7 +4,6 @@ import { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import Author01 from "@/public/logo.png";
 
 
 export default function youths() {
@@ -59,7 +58,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860686/new%20pics/CYF_6827_v6lcc5.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860676/new%20pics/CYF_6705_n9qdkf.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 01"
@@ -75,13 +74,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-9 h-9  mr-4  rounded-md"
                           src={Author01}
                           width="36"
                           height="36"
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -124,7 +123,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714898127/CYF_6690_ioskar.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860686/new%20pics/CYF_6827_v6lcc5.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 02"
@@ -140,13 +139,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -188,7 +187,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860633/new%20pics/CYF_6788_ax1pp0.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860633/new%20pics/CYF_6788_ax1pp0.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 03"
@@ -204,13 +203,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -252,7 +251,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860617/new%20pics/CYF_6755_udapdl.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860633/new%20pics/CYF_6788_ax1pp0.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 04"
@@ -268,13 +267,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -316,7 +315,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860597/new%20pics/CYF_6713_rpqlmo.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860617/new%20pics/CYF_6755_udapdl.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 05"
@@ -332,13 +331,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -380,7 +379,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860700/new%20pics/CYF_6831_ycgqzr.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860597/new%20pics/CYF_6713_rpqlmo.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 06"
@@ -396,13 +395,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -444,7 +443,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860710/new%20pics/CYF_6741_akoo09.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860700/new%20pics/CYF_6831_ycgqzr.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 07"
@@ -460,13 +459,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -508,7 +507,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860627/new%20pics/CYF_6752_j5ebcg.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860710/new%20pics/CYF_6741_akoo09.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 08"
@@ -524,13 +523,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare
@@ -572,7 +571,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860676/new%20pics/CYF_6705_n9qdkf.jpg"
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860676/new%20pics/CYF_6705_n9qdkf.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 09"
@@ -588,13 +587,13 @@ export default function youths() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image
+                        {/* <Image
                           className="shrink-0 w-10 h-10 rounded-md mr-4"
                           src={Author01}
                           width={40}
                           height={40}
                           alt="Author 01"
-                        />
+                        /> */}
                         <div className="truncate">
                           <div className="font-bold text-white truncate">
                             Tare

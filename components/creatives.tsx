@@ -29,7 +29,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md "
-                      src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859193/aaea1rml3b1tzdjxqg0v.jpg"
+                      src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859193/aaea1rml3b1tzdjxqg0v.jpg`}
                       width={258}
                       height={64}
                       alt="Creative 01 bg"
@@ -45,7 +45,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md "
-                      src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858662/wdofyahhfcivntotbypc.jpg"
+                      src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858662/wdofyahhfcivntotbypc.jpg`}
                       width={258}
                       height={64}
                       alt="Creative 02 bg"
@@ -64,7 +64,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md"
-                      src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714898418/number11_nljm1j.jpg"
+                      src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858650/yaj7lpdnr0cbj3qgwkzg.jpg`}
                       width={258}
                       height={64}
                       alt="Creative 03 bg"
@@ -82,7 +82,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md"
-                      src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858647/s5pyee6cnneodzvrwol6.jpg"
+                      src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858647/s5pyee6cnneodzvrwol6.jpg`}
                       width={258}
                       height={64}
                       alt="Creative 04 bg"

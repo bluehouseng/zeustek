@@ -19,7 +19,7 @@ export default function Footer() {
                     <div className="mb-4">
                       {/* logo*/}
                       <div className="mb-8g sm:mb-0">
-                        <Image className="w-10 h-13" src={What} alt="water" />
+                        {/* <Image className="w-10 h-13" src={What} alt="water" /> */}
                       </div>
                     </div>
                   </div>
@@ -105,22 +105,22 @@ export default function Footer() {
                       Blog
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Careers
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a
                       className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Financial statements
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
@@ -146,14 +146,14 @@ export default function Footer() {
                       Terms of service
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Report a vulnerability
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 

@@ -44,8 +44,8 @@ export default function Testimonials() {
                     <div className="shrink-0 relative inline-flex">
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/hfpnlnhx9mool3nrhupj.png"
-                        width={260}
+                        src={`https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/hfpnlnhx9mool3nrhupj.png`}
+                        width={250}
                         height={250}
                         alt="Testimonial 01"
                       />
@@ -107,7 +107,7 @@ export default function Testimonials() {
                     <div className="shrink-0 relative inline-flex">
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/opymmbfmk0qijjz7bj0p.png"
+                        src={`https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/opymmbfmk0qijjz7bj0p.png`}
                         width={260}
                         height={250}
                         alt="Testimonial 02"
@@ -175,7 +175,7 @@ export default function Testimonials() {
                     <div className="shrink-0 relative inline-flex">
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714858481/khmknuxjergr4n2eqpvg.png"
+                        src={`https://res.cloudinary.com/dnrsomsds/image/upload/v1714858481/khmknuxjergr4n2eqpvg.png`}
                         width={260}
                         height={250}
                         alt="Testimonial 03"
