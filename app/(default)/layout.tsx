@@ -1,39 +1,36 @@
-'use client'
+"use client";
 
-import { useEffect } from 'react'
+import { Suspense, useEffect } from "react";
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import Header from '@/components/ui/header'
-import Footer from '@/components/ui/footer'
+import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer";
 
 export default function DefaultLayout({
   children,
 }: {
-  children: React.ReactNode
-}) {  
-
+  children: React.ReactNode;
+}) {
   useEffect(() => {
     AOS.init({
       once: true,
-      disable: 'phone',
+      disable: "phone",
       duration: 500,
-      easing: 'ease-out-cubic',
-    })
-  })
+      easing: "ease-out-cubic",
+    });
+  });
 
   return (
-    <>
-      <Header />
-      
-      <main className="grow ">
+    <Suspense fallback={<h1>Loading...</h1>}>
+      <>
+        <Header />
 
-        {children}
+        <main className="grow ">{children}</main>
 
-      </main>
-
-      <Footer />
-    </>
-  )
+        <Footer />
+      </>
+    </Suspense>
+  );
 }

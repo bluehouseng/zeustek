@@ -45,7 +45,7 @@ function Clients() {
       <div className="py-12 md:py-20">
         {/* Section header */}
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h2 className="h2 font-cabinet-grotesk text-black italic">
+          <h2 className="h2 font-cabinet-grotesk text-black ">
             Our Partners
           </h2>
         </div>

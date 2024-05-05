@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <section id="section3 italic">
+    <section id="section3 ">
       <footer className="bg-white">
         {/* Bottom area */}
         <div className="text-left md:flex md:items-left md:justify-between mb-8 md:mb-6">
@@ -76,7 +76,7 @@ export default function Footer() {
               </div> */}
 
               {/* 3rd block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 italic">
+              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 ">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Company
                 </h6>
@@ -125,7 +125,7 @@ export default function Footer() {
               </div>
 
               {/* 4th block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 italic">
+              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 ">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Resources
                 </h6>
@@ -158,7 +158,7 @@ export default function Footer() {
               </div>
 
               {/* 5th block */}
-              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 italic">
+              <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 ">
                 <h6 className="text-sm text-black-50 font-medium mb-2">
                   Legals
                 </h6>

@@ -5,8 +5,8 @@ import images from "@/public/images/19.jpg";
 
   export default function About() {
     return (
-      <section className="italic">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 italic">
+      <section className="">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
           <div className="pt-12 pb-12 md:pt-40 md:pb-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -59,7 +59,7 @@ import images from "@/public/images/19.jpg";
                 <p className="text-lg text-gray-600 mb-8">
                 African women are reshaping the narrative and becoming catalysts for change in local business ecosystems.
                 </p>
-                <blockquote className="text-gray-600 italic">
+                <blockquote className="text-gray-600 ">
                 “The positive feedback we receive consistently reaffirms the value it brings to our community, empowering African businesses in the tech sector.”
                 </blockquote>
                 <div className="text-sm font-medium text-gray-600 mt-2">

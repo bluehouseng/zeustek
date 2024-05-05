@@ -1,19 +1,29 @@
-"use client";
+"use client"
 
 import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated } from 'react-spring';
 import { Link } from "react-router-dom";
 
 // import Modal from "../utils/Modal";
 import network from "../images/network.jpg";
 // import herovid from "../images/herovid.mp4";
 
+
+
+
+ 
+
+
 function Explainer() {
   const [videoModalOpen, setVideoModalOpen] = useState(true);
 
   return (
+
     <section id="section4">
-      <div className="w-full bg-black sm:px-4 italic">
+
+    
+
+      <div className="w-full bg-black sm:px-4 ">
         <div className=" md:py-20 h-screen  relative">
           <div className="absolute w-full h-full top-0 left-0 z-20 bg-black opacity-20" />
 
@@ -29,14 +39,22 @@ function Explainer() {
           </video>
           <div className="relative w-full h-full ">
             <div className="flex items-end justify-center h-full">
-              <h2 className="text-4xl text-center text-white font-extrabold">
-                Empowering Market Women |<br />
-                <p className="text-2xl">
-                  Navigating the Digital Frontier of Economic Transformation
-                </p>
-              </h2>
+              
+                <h2 className="text-4xl text-center text-white font-extrabold">
+                   Empowering Market Women |<br />
+                  
+                    <p className="text-2xl">
+                      Navigating the Digital Frontier of Economic Transformation
+                    </p>
+                  
+                </h2>
+              
+
+           
             </div>
           </div>
+
+    
         </div>
       </div>
     </section>

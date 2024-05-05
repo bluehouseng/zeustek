@@ -6,7 +6,7 @@ import zeustek from "@/public/images/zeustek1.jpg";
 function Powered() {
   return (
     <div>
-      <div className=" text-center justify-center flex m-7 -mb-1 italic">
+      <div className=" text-center justify-center flex m-7 -mb-1 ">
         <div className="">
           <Image
             className="m-2"
