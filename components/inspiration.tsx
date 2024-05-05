@@ -7,7 +7,7 @@ import Image from "next/image";
 import Author01 from "@/public/logo.png";
 import Inspiration01 from "@/public/images/15.jpg";
 import Inspiration02 from "@/public/images/10.jpg";
-import Inspiration03 from "@/public/images/1.jpg";
+
 import Inspiration04 from "@/public/images/20.jpg";
 import Inspiration05 from "@/public/images/19.jpg";
 import Inspiration06 from "@/public/images/9.jpg";
@@ -279,7 +279,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration03}
+                    src={"https://res.cloudinary.com/dnrsomsds/image/upload/v1714898418/number11_nljm1j.jpg"}
                     width="352"
                     height="352"
                     alt="Inspiration 03"

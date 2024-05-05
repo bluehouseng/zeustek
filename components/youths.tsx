@@ -5,15 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Author01 from "@/public/logo.png";
-import Inspiration01 from "@/public/images/CYF_6690.jpg";
-import Inspiration02 from "@/public/images/CYF_6696.jpg";
-import Inspiration03 from "@/public/images/CYF_6705.jpg";
-import Inspiration04 from "@/public/images/CYF_6713.jpg";
-import Inspiration05 from "@/public/images/CYF_6741.jpg";
-import Inspiration06 from "@/public/images/CYF_6752.jpg";
-import Inspiration07 from "@/public/images/CYF_6827.jpg";
-import Inspiration08 from "@/public/images/CYF_6831.jpg";
-import Inspiration09 from "@/public/images/CYF_6834.jpg";
+
 
 export default function youths() {
   const [category, setCategory] = useState<string>("0");
@@ -67,7 +59,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration01}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860686/new%20pics/CYF_6827_v6lcc5.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 01"
@@ -132,7 +124,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration02}
+                    src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714898127/CYF_6690_ioskar.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 02"
@@ -196,7 +188,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration03}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860633/new%20pics/CYF_6788_ax1pp0.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 03"
@@ -260,7 +252,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration04}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860617/new%20pics/CYF_6755_udapdl.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 04"
@@ -324,7 +316,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration05}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860597/new%20pics/CYF_6713_rpqlmo.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 05"
@@ -388,7 +380,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration06}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860700/new%20pics/CYF_6831_ycgqzr.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 06"
@@ -452,7 +444,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration07}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860710/new%20pics/CYF_6741_akoo09.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 07"
@@ -516,7 +508,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration08}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860627/new%20pics/CYF_6752_j5ebcg.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 08"
@@ -580,7 +572,7 @@ export default function youths() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={Inspiration09}
+                    src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860676/new%20pics/CYF_6705_n9qdkf.jpg"
                     width="352"
                     height="352"
                     alt="Inspiration 09"

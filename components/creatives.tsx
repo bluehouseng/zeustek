@@ -1,10 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import CreativesImage from "@/public/images/creatives.jpg";
-import inspiration01 from "@/public/images/14.jpg";
-import inspiration02 from "@/public/images/9.jpg";
-import inspiration03 from "@/public/images/2.jpg";
-import inspiration04 from "@/public/images/15.jpg";
+
 
 export default function Creatives() {
   return (
@@ -32,7 +29,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md "
-                      src={inspiration01}
+                      src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859193/aaea1rml3b1tzdjxqg0v.jpg"
                       width={258}
                       height={64}
                       alt="Creative 01 bg"
@@ -48,7 +45,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md "
-                      src={inspiration02}
+                      src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858662/wdofyahhfcivntotbypc.jpg"
                       width={258}
                       height={64}
                       alt="Creative 02 bg"
@@ -67,7 +64,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md"
-                      src={inspiration03}
+                      src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714898418/number11_nljm1j.jpg"
                       width={258}
                       height={64}
                       alt="Creative 03 bg"
@@ -85,7 +82,7 @@ export default function Creatives() {
                   >
                     <Image
                       className="w-full h-64 object-cover rounded-md"
-                      src={inspiration04}
+                      src="https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858647/s5pyee6cnneodzvrwol6.jpg"
                       width={258}
                       height={64}
                       alt="Creative 04 bg"

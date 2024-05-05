@@ -3,9 +3,7 @@
 import { useEffect } from "react";
 
 import Image from "next/image";
-import TestimonialsImage01 from "@/public/images/c2.jpg";
-import TestimonialsImage02 from "@/public/images/c3.jpg";
-import TestimonialsImage03 from "@/public/images/c1.jpg";
+
 
 // Import Swiper
 import Swiper, { Pagination } from "swiper";
@@ -46,7 +44,7 @@ export default function Testimonials() {
                     <div className="shrink-0 relative inline-flex">
                       <Image
                         className="rounded-full"
-                        src={TestimonialsImage01}
+                        src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/hfpnlnhx9mool3nrhupj.png"
                         width={260}
                         height={250}
                         alt="Testimonial 01"
@@ -86,11 +84,10 @@ export default function Testimonials() {
                       </svg>
                       <div>
                         <h4 className="h3 font-cabinet-grotesk mb-4 ">
-                          I've been using this Community to track my ideas, and
-                          it's such a helpful and enjoyable product. Thanks for
-                          building it!
+                          I have been able to upfront my social media pressence and also generate leads to boost my Business. 
+                          Indeed Social Media makes things easier especially the Business aspect.
                         </h4>
-                        <h6>mrs blessing </h6>
+                        <h6>Mrs Awazi A. </h6>
                       </div>
                       <div>
                         {/* <a
@@ -110,7 +107,7 @@ export default function Testimonials() {
                     <div className="shrink-0 relative inline-flex">
                       <Image
                         className="rounded-full"
-                        src={TestimonialsImage02}
+                        src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/opymmbfmk0qijjz7bj0p.png"
                         width={260}
                         height={250}
                         alt="Testimonial 02"
@@ -151,12 +148,12 @@ export default function Testimonials() {
 
                       <div>
                         <h4 className="h3 font-cabinet-grotesk mb-4">
-                          If you want real marketing that works and effective
-                          implementation - Tare foundation got you covered.
+                          I have been a novice to the online space and as a result of this training, 
+                          I gained exposure and I am able to transact my business globally
                         </h4>
                         <h6 className="">
                         
-                          mrs Adaeze
+                          Eunice Nanko Nimyel
                         </h6>
                       </div>
 
@@ -178,7 +175,7 @@ export default function Testimonials() {
                     <div className="shrink-0 relative inline-flex">
                       <Image
                         className="rounded-full"
-                        src={TestimonialsImage03}
+                        src="https://res.cloudinary.com/dnrsomsds/image/upload/v1714858481/khmknuxjergr4n2eqpvg.png"
                         width={260}
                         height={250}
                         alt="Testimonial 03"
@@ -218,11 +215,10 @@ export default function Testimonials() {
                       </svg>
                       <div>
                         <h4 className="h3 font-cabinet-grotesk mb-4">
-                          This community has really helped my business in many
-                          different ways. I just can't get enough of this
-                          awesome company.
+                          Firstly, I was able to connect with like minds.
+                          I learnt how to multitask effectively with digital tools without having one to suffer.
                         </h4>
-                        <h6>mrs Chioma </h6>
+                        <h6>Lilybeth Tamnar </h6>
                       </div>
                       <div>
                         {/* <a
