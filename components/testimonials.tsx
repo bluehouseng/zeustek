@@ -42,13 +42,13 @@ export default function Testimonials() {
                   {/* Testimonial */}
                   <div className="swiper-slide space-y-8 lg:flex items-center lg:space-y-0 lg:space-x-8 text-center lg:text-left">
                     <div className="shrink-0 relative inline-flex">
-                      <Image
+                      {/* <Image
                         className="rounded-full"
                         src={`https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/hfpnlnhx9mool3nrhupj.png`}
                         width={250}
                         height={250}
                         alt="Testimonial 01"
-                      />
+                      /> */}
                       <div className="absolute right-0 bottom-0 mr-4 mb-6">
                         {/* <a
                           className="flex items-center font-cabinet-grotesk font-bold decoration-blue-500 decoration-2 underline-offset-2 hover:underline px-3 py-1 bg-white rounded-full shadow-sm"
@@ -105,13 +105,13 @@ export default function Testimonials() {
                   {/* Testimonial */}
                   <div className="swiper-slide space-y-8 lg:flex items-center lg:space-y-0 lg:space-x-8 text-center lg:text-left">
                     <div className="shrink-0 relative inline-flex">
-                      <Image
+                      {/* <Image
                         className="rounded-full"
                         src={`https://res.cloudinary.com/dnrsomsds/image/upload/v1714858482/opymmbfmk0qijjz7bj0p.png`}
                         width={260}
                         height={250}
                         alt="Testimonial 02"
-                      />
+                      /> */}
                       <div className="absolute right-0 bottom-0 mr-4 mb-6">
                         {/* <a
                           className="flex items-center font-cabinet-grotesk font-bold decoration-blue-500 decoration-2 underline-offset-2 hover:underline px-3 py-1 bg-white rounded-full shadow-sm"
@@ -173,13 +173,13 @@ export default function Testimonials() {
                   {/* Testimonial */}
                   <div className="swiper-slide space-y-8 lg:flex items-center lg:space-y-0 lg:space-x-8 text-center lg:text-left">
                     <div className="shrink-0 relative inline-flex">
-                      <Image
+                      {/* <Image
                         className="rounded-full"
                         src={`https://res.cloudinary.com/dnrsomsds/image/upload/v1714858481/khmknuxjergr4n2eqpvg.png`}
                         width={260}
                         height={250}
                         alt="Testimonial 03"
-                      />
+                      /> */}
                       <div className="absolute right-0 bottom-0 mr-4 mb-6">
                         {/* <a
                           className="flex items-center font-cabinet-grotesk font-bold decoration-blue-500 decoration-2 underline-offset-2 hover:underline px-3 py-1 bg-white rounded-full shadow-sm"
