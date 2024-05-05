@@ -1,15 +1,15 @@
 import Link from "next/link";
 import MobileMenu from "./mobile-menu";
 import Image from "next/image";
-// import Author01 from "@/public/images/logo1.png";
+import Author01 from "@/public/images/logo (2).png";
 
 export default function Header() {
   return (
     <header className="absolute w-full z-30 bg-white">
       <div className="px-4 sm:px-6 flex justify-center items-center h-16 md:h-20">
         {/* Site branding */}
-        <div className="mr-auto">
-          {/* <Image src={} alt="Your Image" width={50} height={50} /> */}
+        <div className="mr-auto m-3 mt-5">
+          <Image src={Author01} alt="Your Image" width={70} height={70} />
         </div>
         {/* Desktop navigation */}
         <nav className="hidden md:flex flex-grow justify-center">
