@@ -344,7 +344,7 @@ export default function Inspiration() {
                 >
                   <Image
                     className="w-full aspect-square object-cover rounded-md"
-                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859191/xo6psw8mvfmicvptbjib.jpg`}
+                    src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859241/bf8krrrdigk7ski60am9.jpg`}
                     width="352"
                     height="352"
                     alt="Inspiration 04"
