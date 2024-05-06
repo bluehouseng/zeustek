@@ -4,16 +4,7 @@ import { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import Author01 from "@/public/logo.png";
-import Inspiration01 from "@/public/images/15.jpg";
-import Inspiration02 from "@/public/images/10.jpg";
-import Inspiration03 from "@/public/images/1.jpg";
-import Inspiration04 from "@/public/images/20.jpg";
-import Inspiration05 from "@/public/images/19.jpg";
-import Inspiration06 from "@/public/images/9.jpg";
-import Inspiration07 from "@/public/images/17.jpg";
-import Inspiration08 from "@/public/images/18.jpg";
-import Inspiration09 from "@/public/images/12.jpg";
+
 
 export default function Inspiration() {
   const [category, setCategory] = useState<string>("0");
@@ -30,7 +21,7 @@ export default function Inspiration() {
 
   return (
     <section id="section1  italic">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center -m-1.5  -mb-52 -mt-20 italic">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center -m-1.5  -mb-52 -mt-20 ">
         <div className="py-12 md:pt-32 md:pb-20 text-center justify-center">
           {/* Section header */}
           <div className=""></div>

@@ -1,21 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-// import zeustek from "@/public/images/14.jpg";
-// import zeustek1 from "@/public/images/4.jpg";
-// import zeustek3 from "@/public/images/17.jpg";
-// import zeustek4 from "@/public/images/10.jpg";
-// import zeustek5 from "@/public/images/20.jpg";
-// import zeustek6 from "@/public/images/11.jpg";
-// import zeustek7 from "@/public/images/15.jpg";
-// import zeustek8 from "@/public/images/19.jpg";
-// import zeustek9 from "@/public/images/14.jpg";
-// import zeustek10 from "@/public/images/1.jpg";
-// import zeustek11 from "@/public/images/5.jpg";
-// import zeustek12 from "@/public/images/9.jpg";
 
 export default function Gallery() {
   return (
-    <div className=" lg:mt-[10%] mt-24 italic ">
+    <div className=" lg:mt-[10%] mt-24  ">
       <div className="max-w-7xl mx-auto text-center pb-12 md:pb-16">
         <div className="mb-80">
           <h2 className="text-2xl md:text-3xl font-bold "> Gallery.</h2>
@@ -101,11 +89,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image
+              <Image
                 className="w-full rounded-md"
-                src={zeustek11}
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858662/wdofyahhfcivntotbypc.jpg`}
+                width="352"
+                height="352"
                 alt="Image"
-              /> */}
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Empowering</div>
                 {/* <div className="text-[#737373] text-base text-center">
@@ -119,7 +109,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek9} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714860832/CYF_6713_thyxop.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" rounded-md text-xl mb-2 text-center">
                   Traniees
@@ -135,7 +131,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek1} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859241/bf8krrrdigk7ski60am9.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Training</div>
                 {/* <div className="text-[#737373] text-base text-center">
@@ -149,7 +151,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek5} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858658/h0pudsuf4zdftsziyjme.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" rounded-md text-xl mb-2 text-center">
                   Tech women
@@ -165,7 +173,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek6} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859326/esyl0bkl3ugs6qnltkm4.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Tare Foundation</div>
                 {/* <div className="text-[#737373] text-base text-center">
@@ -179,10 +193,16 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek7} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md bg-transparent"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858650/yaj7lpdnr0cbj3qgwkzg.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">
-                  Exposure to tech
+                  Exposure to Tech
                 </div>
                 {/* <div className="text-[#737373] text-base text-center">
               English Department
@@ -195,7 +215,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek8} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859292/zgpb3apgyucazxcdkskw.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Strengthen</div>
                 {/* <div className="text-[#737373] text-base text-center">
@@ -207,7 +233,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image className="w-full rounded-md" src={zeustek9} alt="Image" /> */}
+              <Image
+                className="w-full rounded-md"
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858615/auqu0zwmjmwep0fsha0k.jpg`}
+                alt="Image"
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Inspire</div>
                 {/* <div className="text-[#737373] text-base text-center">
@@ -219,11 +251,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image
+              <Image
                 className="w-full rounded-md"
-                src={zeustek10}
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714858621/rytlxfcj7m8asqer3khj.jpg`}
                 alt="Image"
-              /> */}
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Enhance</div>
                 {/* <div className="text-[#737373] text-base text-center">
@@ -237,11 +271,13 @@ export default function Gallery() {
           </div>
           <div className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
             <div className="  justify-center  ">
-              {/* <Image
+              <Image
                 className="w-full rounded-md"
-                src={zeustek11}
+                width="352"
+                height="352"
+                src={`https://res.cloudinary.com/dqkwvguyg/image/upload/v1714859292/zgpb3apgyucazxcdkskw.jpg`}
                 alt="Image"
-              /> */}
+              />
               <div className="px-6 py-4">
                 <div className=" text-xl mb-2 text-center">Strengthen</div>
                 {/* <div className="text-[#737373] text-base text-center">

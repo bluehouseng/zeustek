@@ -10,8 +10,8 @@ export default function youths() {
   const [category, setCategory] = useState<string>("0");
 
   return (
-    <section id="section1 w-full italic">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center italic">
+    <section id="section1 w-full ">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center justify-center ">
         <div className="py-12 md:pt-32 md:pb-20 text-center justify-center">
           {/* Section header */}
 
@@ -28,7 +28,7 @@ export default function youths() {
             </div>
             {/* Gallery */}
             <div className="relative">
-              <div className="p-6 w-full flex flex-col justify-center items-center italic">
+              <div className="p-6 w-full flex flex-col justify-center items-center ">
                 {/* Images grid */}
                 <h2 className=" h2 text-center justify-center m-11">Youths</h2>
                 <p className=" w-[80%]  justify-center text-center">
