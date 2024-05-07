@@ -12,7 +12,7 @@ import giz from "@/public/images/giz.jpg";
 import jtg from "@/public/images/jtg.png";
 import itf from "@/public/images/itf.jpg";
 import gdg from "@/public/images/gdg.png";
-import cp from "@/public/images/cp.png";
+import cp from "@/public/images/fuwukari.png";
 import pictda from "@/public/images/pictda.png";
 
 // Import Swiper
@@ -51,6 +51,9 @@ function Clients() {
           <div className="swiper-wrapper !ease-linear select-none">
             <div className="swiper-slide !h-32 !w-32  rounded-2xl flex items-center justify-center group">
               <Image className="" src={uj} alt="Client 02" />
+            </div>
+            <div className="swiper-slide !h-32 !w-32  rounded-2xl flex items-center justify-center group">
+              <Image className="bg-white" src={cp} alt="Client 02" />
             </div>
 
             <div className="swiper-slide !h-32 !w-32   rounded-2xl flex items-center justify-center group">
