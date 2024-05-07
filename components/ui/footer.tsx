@@ -1,6 +1,6 @@
 import ema from "./ema.png";
 import Link from "next/link";
-import Author01 from "@/public/images/logo (2).png";
+import Author01 from "@/public/images/newlogo.png";
 import Image from "next/image";
 
 export default function Footer() {
@@ -19,7 +19,13 @@ export default function Footer() {
                     <div className="mb-4">
                       {/* logo*/}
                       <div className="mb-8g sm:mb-0">
-                        <Image className="w-10 h-13" src={Author01} alt="water" />
+                        <Image
+                          className=""
+                          src={Author01}
+                          alt="water"
+                          width={90}
+                          height={90}
+                        />
                       </div>
                     </div>
                   </div>
